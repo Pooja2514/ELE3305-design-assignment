@@ -1,0 +1,35 @@
+Distance Unit:
+  	Date: May 2, 2025 
+  	On the project: Distance Sensor Unit 
+  	Used Tinkercad to simulate four ultrasonic sensors.
+  	The TRIG and ECHO pins (pins 5–12) were connected to the Arduino. 
+  	To determine the minimal distance, I wrote code for Arduino.
+  	The output was tested on the serial monitor (D:14, D:2, and D:30). The circuit and code were saved. 
+  	Spending time: 4 hours
+
+Fuel and Speed Unit:
+  	Date: 03-May-2025 
+  	Worked on : speed and fuel sensor unit. 
+  	Used Tinkercad to simulate two potentiometers to symbolize fuel and speed sensors. 
+  	Potentiometers were connected to the Arduino analog pins A0 (fuel) and A1 (speed). 
+  	Mapped speed input (0–120 km/h) and simulated fuel usage using Arduino code.
+  	Using Serial Monitor, the output was tested; dynamic fuel and speed readings were displayed. 
+  	Potentiometer was adjusted to monitor real-time fuel percentage changes based on speed. 
+  	Fnished writing the code and saved the circuit. 
+  	Spending time: 5 hours
+
+Display Unit:
+  	Date: May 3, 2025 
+  	Finished: Display Unit 
+  	I2C LCD was interfaced with Arduino using theLiquidCrystal_I2C library. 
+  	Arduino with LCD (I2C is ) connected: 
+    VCC → 5V 
+    GND → GND 
+    SDA to A4    
+    SCL to A5 .
+  	Buzzer was connected to pin 8. 
+  	Created Arduino code to use Serial (RS232) to receive distance values. 
+  	Distance and messages were shown on the LCD screen. 
+  	Buzzer warning that was activated based on distance and had a dynamic tone delay output that has been tested in both dangerous (<20 cm) and safe (>20 cm) situations.
+  	Checked the buzzer and LCD for correct output. Code and circuit saved.
+  	 Duration: 4 hours
