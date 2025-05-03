@@ -1,5 +1,3 @@
-// Distance Sensor Unit
-
 #define TRIG0 5
 #define ECHO0 6
 #define TRIG1 7
@@ -16,7 +14,7 @@ long readDistance(int trigPin, int echoPin) {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   long duration = pulseIn(echoPin, HIGH);
-  long distance = duration * 0.034 / 2; // cm
+  long distance = duration * 0.034 / 2; 
   return distance;
 }
 
@@ -40,7 +38,6 @@ void loop() {
 
   long minDist = min(min(d0, d1), min(d2, d3));
 
-  // Send data to Display Unit in format: D:<minDist>
   Serial.print("D:");
   Serial.println(minDist);
 
