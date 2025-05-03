@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C lcd(0x20, 16, 2);  // Common I2C address: 0x27
+LiquidCrystal_I2C lcd(0x20, 16, 2);  
 int buzzer = 8;
 int distance;
 
@@ -16,7 +16,7 @@ void setup() {
 
 void loop() {
   if (Serial.available()) {
-    distance = Serial.parseInt();  // Read from RS232 (Serial Monitor)
+    distance = Serial.parseInt();  
 
     lcd.clear();
     lcd.setCursor(0, 0);
@@ -28,8 +28,8 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print("WARNING: OBSTACLE");
 
-      int delayTime = map(distance, 0, 20, 50, 300);  // dynamic beep rate
-      tone(buzzer, 1000);  // 1kHz warning tone
+      int delayTime = map(distance, 0, 20, 50, 300);  
+      tone(buzzer, 1000);  /
       delay(delayTime);
       noTone(buzzer);
       delay(delayTime);
