@@ -5,7 +5,7 @@ Distance Unit:
   	The TRIG and ECHO pins (pins 5–12) were connected to the Arduino. 
   	To determine the minimal distance, I wrote code for Arduino.
   	The output was tested on the serial monitor (D:14, D:2, and D:30). The circuit and code were saved. 
-  	Spending time: 4 hours
+  	Spending time: 1.5 hours
 
 Fuel and Speed Unit:
   	Date: 03-May-2025 
@@ -16,7 +16,7 @@ Fuel and Speed Unit:
   	Using Serial Monitor, the output was tested; dynamic fuel and speed readings were displayed. 
   	Potentiometer was adjusted to monitor real-time fuel percentage changes based on speed. 
   	Fnished writing the code and saved the circuit. 
-  	Spending time: 5 hours
+  	Spending time: 2 hours
 
 Display Unit:
   	Date: May 3, 2025 
@@ -32,4 +32,4 @@ Display Unit:
   	Distance and messages were shown on the LCD screen. 
   	Buzzer warning that was activated based on distance and had a dynamic tone delay output that has been tested in both dangerous (<20 cm) and safe (>20 cm) situations.
   	Checked the buzzer and LCD for correct output. Code and circuit saved.
-  	 Duration: 4 hours
+  	 Duration: 1.5 hours
